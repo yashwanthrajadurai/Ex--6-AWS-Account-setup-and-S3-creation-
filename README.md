@@ -1,35 +1,60 @@
 # Ex--6-AWS-Account-setup-and-S3-creation-
+# Introduction
 
-## Objective
-1.To Create a Bucket in Amazone S3.
+In this lab, we are going to be introduced to one of the famous Cloud Service providers, Amazon Web Services (AWS). We will work on Amazon Simple Storage Service (S3), which provides storage through web service interfaces (REST, SOAP, and BitTorrent). In S3, the data is stored in the form of buckets. Buckets serve as root folders where we can add, create, or upload files and folders. We can create multiple buckets for different purposes, and each bucket can have different access control policies.
 
-2.Adding Objects(files and folders) to the bucket.
+## Objectives
 
-3.Access, move, download and delete the objects.
+- Create a Bucket in Amazon S3.
+- Add Objects (files and folders) to the bucket.
+- Access, move, download, and delete the objects.
+- Delete the Bucket.
 
-4.Delete the Bucket.
+## Illustration
 
-## ILLUSTRATION
+### Step 1: Choose S3 Service
 
-STEP 1 : Choose S3 service from the list of services provided by the AWS
+Choose the S3 service from the list of services provided by AWS.
 
-![image](https://github.com/user-attachments/assets/c7a842cb-a5af-4a9f-a416-2ec49f9f4395)
+(![image](https://github.com/user-attachments/assets/d641bb01-a8f8-405c-914b-5ff7840a539d))
 
-STEP 2: Now I have selected S3 service, I will create a unique bucket by clicking on create bucket button on the page. This step explains that the bucket name we have to provide it must be “Unique”, will not contain any “Upper case letters” and also “Special characters” are not allowed. If you type any of these it will display the error that this bucket can not be created as shown in the image below.
+### Step 2: Create a Unique Bucket
 
-![image](https://github.com/user-attachments/assets/9fd991db-5c95-4b17-b4c5-77818fedc438)
+After selecting the S3 service, click on the "Create Bucket" button on the page. The bucket name must be unique, contain no uppercase letters, and have no special characters. If you enter any of these, an error will display, preventing the bucket from being created.
 
-![image](https://github.com/user-attachments/assets/d8750736-9684-4ce2-a703-90c0db2e7d8b)
+![image](https://github.com/user-attachments/assets/6a447548-5dbb-4bee-be9a-14823d0bf6b0)
+![image](https://github.com/user-attachments/assets/8f0c2e75-1106-4666-b67d-6335aab13ab8)
+![image](https://github.com/user-attachments/assets/216498f3-1fbd-457e-b930-9589d28be372)
+![image](https://github.com/user-attachments/assets/9ed831a6-3a1c-4aee-90d9-d871af80bd6c)
+![image](https://github.com/user-attachments/assets/e32fc9f3-c82a-4b72-8b10-7a0477f9ccd6)
 
-![image](https://github.com/user-attachments/assets/a3383e98-8ecb-4ba6-afcb-363eb3871fb1)
+For region selection, choose a region from the available list. It is recommended to select a region nearby your location for higher availability. In this lab, I selected Sydney, as it is near my country, New Zealand. Remember to provide a unique bucket name with no special characters or uppercase letters.
 
-![image](https://github.com/user-attachments/assets/3602fecc-84fa-4dd7-be90-ef8b441ba29e)
+### Step 3: Upload Files to the Bucket
 
-Now coming to the region selection, we can select region according to the region that is available on the list. Usually for cloud services always prefer the region that is nearby to your location to make services highly available. In this lab, I have selected Sydney as it is nearby my country New Zealand. While creating a bucket name remember to provide a unique name with no special characters, no upper case letters.
+Now, I have uploaded some files into the bucket I just created. There are no restrictions on uploading file types, but the size of each file must be less than 5 terabytes.
 
-STEP 3: Now I have uploaded some files into the bucket that I have just now created. There is no such kind of restriction on uploading the file. The only restriction is that size of uploading a single file must be with the size fewer than 5 terabytes.
+![image](https://github.com/user-attachments/assets/b4aa897c-f2e2-4473-8f90-595b530529e9)
+![image](https://github.com/user-attachments/assets/3a137296-7bce-474e-9aee-90f1270da0b5)
 
+You can upload files of any extension, folders, and subfolders. The images below explain that you can drag and drop files or select them from your computer. After uploading a file, you can download, cut, copy, make it public, rename, or delete it. Making a file public means everyone can access it, and you will receive a link (e.g., `https://s3-ap-southeast-2.amazonaws.com/...`) to share it.
 
+![image](https://github.com/user-attachments/assets/5f1fee62-d590-494f-8345-aeb80745e810)
+![image](https://github.com/user-attachments/assets/b3030041-ce14-43a8-8e6c-4c26a875d52e)
 
+### Step 4: Upload a Folder
 
+You can also upload a folder to the bucket. If your local folder contains subfolders and data, all data inside the parent folder will be uploaded. The images below show how to upload a folder by dragging and dropping or browsing.
 
+![image](https://github.com/user-attachments/assets/f0ad8c4e-0d66-490f-a4e0-3ecc1d39ba25)
+
+### Step 5: Delete the Bucket
+
+To delete a bucket, you must retype the bucket name. This policy is implemented by Amazon to confirm your action because deleting a bucket can remove large amounts of data.
+
+![image](https://github.com/user-attachments/assets/c09b5618-9d48-4d70-b59a-e76dd9c163f6)
+![image](https://github.com/user-attachments/assets/a90ffaae-5bbd-4306-9227-f6f4dd715395)
+
+## Result
+
+Successfully created, managed, and deleted an S3 bucket on AWS, demonstrating the ability to upload, access, and control objects within Amazon S3.
