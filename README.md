@@ -1,4 +1,4 @@
-# Ex--6-AWS-Account-setup-and-S3-creation-
+# Ex--2-AWS-Account-setup-and-S3-creation-
 # Introduction
 
 In this lab, we are going to be introduced to one of the famous Cloud Service providers, Amazon Web Services (AWS). We will work on Amazon Simple Storage Service (S3), which provides storage through web service interfaces (REST, SOAP, and BitTorrent). In S3, the data is stored in the form of buckets. Buckets serve as root folders where we can add, create, or upload files and folders. We can create multiple buckets for different purposes, and each bucket can have different access control policies.
@@ -58,3 +58,4 @@ To delete a bucket, you must retype the bucket name. This policy is implemented 
 ## Result
 
 Successfully created, managed, and deleted an S3 bucket on AWS, demonstrating the ability to upload, access, and control objects within Amazon S3.
+
