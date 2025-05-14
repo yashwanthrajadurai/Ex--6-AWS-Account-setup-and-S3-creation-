@@ -1,4 +1,6 @@
-# Ex--1-AWS-Account-setup-and-S3-creation-
+# Ex--2-AWS-Account-setup-and-S3-creation-
+# NAME: YASHWANTH RAJA DURAI V
+# REG : 212222040184
 # Introduction
 
 In this lab, we are going to be introduced to one of the famous Cloud Service providers, Amazon Web Services (AWS). We will work on Amazon Simple Storage Service (S3), which provides storage through web service interfaces (REST, SOAP, and BitTorrent). In S3, the data is stored in the form of buckets. Buckets serve as root folders where we can add, create, or upload files and folders. We can create multiple buckets for different purposes, and each bucket can have different access control policies.
